@@ -1,16 +1,60 @@
 # to_do_list_task
 
-A new Flutter project.
+This is a Flutter To-Do List application that uses **SharedPreferences** to store tasks persistently.
+
+## Project Overview
+
+This project allows users to manage their tasks effectively with features like adding, updating, deleting, and marking tasks as complete. The app utilizes **SharedPreferences** to ensure that tasks persist even after closing and reopening the app.
+
+## Features
+
+- **Add Tasks**: Users can create new tasks with a title and description.
+- **Update Tasks**: Edit tasks to change their title or description.
+- **Delete Tasks**: Remove tasks permanently.
+- **Mark Tasks as Complete**: Check off tasks when they are done.
+- **Persistent Storage**: Uses **SharedPreferences** to save tasks locally on the device.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK installed on your machine.
+- A code editor like VS Code or Android Studio.
 
+### Installation
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/yourusername/to_do_list_task.git
+    ```
+
+2. **Navigate to the project folder**:
+
+    ```bash
+    cd to_do_list_task
+    ```
+
+3. **Install dependencies**:
+
+    ```bash
+    flutter pub get
+    ```
+
+4. **Run the app**:
+
+    ```bash
+    flutter run
+    ```
+
+## Resources
+
+If you're new to Flutter, here are some helpful resources:
+
+- [Flutter Documentation](https://docs.flutter.dev/)
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook) – useful Flutter examples and tutorials.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Author
+
+Saad Bin Nadeem
